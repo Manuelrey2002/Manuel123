@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+h1 {font-size: 3.5em;}
+h2 {font-size: 2.7em;}
+h3 {font-size: 2em;}
+p {font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(5, 177, 5);
+}
+
+button:hover{
+    background-color:rgb(4, 133, 4) ;
+}
+
+.container{
+    max-width: 1400px;
+    margin:auto;
+}
+
+
+.color-acento{
+color:rgb(39, 170, 39);
+}
+header{
+    background-color: RGB(245,245,245);
+}
+
+header.logo{
+    margin:0;
+    padding: 25px 30px;
+    font-weight:bold;
+    color: rgb(39, 170, 39);
+    font-size: 1.6em;
+}
+
+header.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+header.nav{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+}
+
+header a:hover{
+    color:rgb(39, 170, 39) ;
+}
+
+#hero{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align:  center;
+    flex-direction:column;
+    height:90vh;
+    background-image:linear-gradient(
+        0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)),
+     url("caballos corriendo-hero-.jpeg");
+     background-repeat: no-repeat;
+     background-size:cover ;
+     background-position: center center;
+}
+ #hero h1{
+    color:white;
+ }
+
+ #somoswhitehorse .container{
+  text-align:center;
+  padding: 200px 12px;
+ }
+#estadios{
+    background-color:rgb(30,30,30);
+    color: white;
+}
+#estadios h2{
+    margin-top:0;
+}
+
+ #estadios .container{
+    text-align:center;  
+    padding: 150px 12px;
+ }
+ #estadios p{
+    display:none;
+}
+
+#estadios .carta{
+    background-position: center center;
+     background-size: cover;
+     padding: 50px 0px;
+     margin: 30px;
+     border-radius:15px;
+
+}
+#estadios.programas{
+    display:flex;
+    justify-content: center;
+}
+#estadios .carta{
+    padding: 50px;
+    background-size: 100% 255px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);}
+
+
+.carta[data="hipodromo-san-isidro.jpeg"]{
+    background-image:linear-gradient(
+        0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)),
+     url("hipodromo-san-isidro.jpeg");
+}
+.carta[data="hipodromo-de-palermo-335542.jpg"]{
+    background-image:linear-gradient(
+        0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)),
+     url("hipodromo-de-palermo-335542.jpg");
+}
+
+
+.carta[data="R.jpeg"]{
+    background-image:linear-gradient(
+        0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)),
+     url("R.jpeg");
+}
+
+
+#listorti .container{
+ text-align: center;
+ padding: 200px 12px;
+ 
+}
+
+#listorti.li{
+    margin: 16px 0px;
+    font-weight: bold;
+    
+}
+
+#listorti ul li {
+    font-size: x-large;
+    line-height: 4;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgba(0,0,0,0.88);
+}
+
+#yaesta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
